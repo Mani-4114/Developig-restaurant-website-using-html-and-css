@@ -1,0 +1,254 @@
+*{
+box-sizing: border-box; 
+font-family: 'Raleway';
+columns: #07ec0f;
+color : rgb(10, 117, 35);
+line-height: 1.5em;  
+}
+
+html,body{
+margin: 0;
+padding: 0;
+
+}
+.nav ul{    
+margin: 0;
+}
+
+.nav li{
+display: inline ;
+}
+
+.nav a {
+display: inline-block;
+text-decoration: none;
+color:white;
+padding: 0.5em;
+}
+
+.nav a:hover{
+background-color: rgba(255, 255, 255,0.3);
+}
+.p{
+    color: black;
+}
+
+.main-nav {
+text-align: center;
+font-size: 1.1em;
+font-weight: lighter;
+border-bottom: 1px solid rgba(255, 255, 255,0.3);
+}
+
+.main-nav li {
+padding: 0 5%;
+}
+
+.main-header{
+background-color: rgb(132, 0, 255);
+background-image: url(Images/background.jpg);
+background-size: cover;
+background-blend-mode: multiply;
+padding-bottom: 30px;   
+}
+
+.band-name {
+font-size: 4em;
+margin: 0;
+text-align: center;
+font-family: 'Russo One', sans-serif;
+color: white;
+font-weight: normal;
+}
+
+.band-name-large{
+font-size: 8em;
+}
+
+.container{
+max-width: 900px;
+margin : 0 auto;
+padding : 0 1.5em;
+}
+.title-section{
+font-family: 'Metal Mania', cursive;
+text-align: center;
+font-size: 2.6em;
+font-weight: normal;
+color: #333;
+}
+.band-image{
+float: left;
+border-radius: 100%; 
+height: 300px;
+width: 400px; 
+margin: 20px;
+}
+.shop-item{
+margin : 20px;
+}
+
+.shop-item-title{
+display: block;
+width: 100%;
+margin-bottom: 15px;
+font-weight: bolder ;
+text-align: center;
+font-size: 1.5em;
+}
+
+.shop-item-image{
+width: 200px;
+height: 200px;
+}
+
+.shop-item-details{
+padding-top: 25px;
+display: flex;
+align-items: center;
+}
+
+.shop-item-price{
+flex-grow: 1;
+color : #333;
+font-weight: bolder;
+}
+
+.shop-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cart-header{
+font-weight: bold;
+font-size: 1.2em;
+color: #333;
+}
+
+.cart-column{
+display: flex;
+align-items: center;
+border-bottom: 1px solid ;
+margin-top: 10px;
+padding-bottom: 10px;
+margin-right: 1.5em; /* to add space between underlined blocks */
+} 
+
+.cart-row {
+display: flex;
+}
+
+.cart-item {
+width: 40%;
+}
+
+.cart-price {
+width: 30%;
+font-size: 1.2em;
+color: #333;
+}
+
+.cart-quantity {
+width : 30%
+}
+
+.cart-item-title {
+color: #333;
+margin-left: 0.5em;
+font-size: 1.2em;
+}
+
+.cart-item-image {
+width : 75 px;
+height : auto;
+border-radius: 10px;
+}
+
+.btn-danger{
+color:white;
+background-color: #EB5757;
+border-radius: 10px;
+font-weight: bolder;
+border: none;
+margin-left: 10px;
+}
+
+.btn-danger:hover {
+background: rgb(220, 20, 20);
+}
+
+.cart-item-quantity {
+width : 45px;
+height: 35px;
+border-radius: 5px;
+border: 1px solid rgb(122, 46, 46) ;
+font-size: 1.2em;
+color: #333;
+text-align: center;
+}
+
+.cart-row:last-child .cart-column {
+border : none;  
+}
+
+.cart-row:last-child{
+border-bottom: 1px solid;
+}
+
+.cart-total {
+text-align: end;
+margin-top: 15px;
+}
+
+.cart-total-title {
+font-size: 1.5em;
+color: black;
+margin-right: 20px;
+font-weight: bold;
+}
+
+.cart-total-price {
+font-size: 1.3em;
+color: #333;
+}
+
+.btn-purchase{
+display: block;
+margin : 40px auto;
+margin-bottom: 100px;
+font-size : 1.6em;
+}
+.navbar {
+background-color: #333;
+overflow: hidden;
+}
+
+.navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.navbar li {
+float: left;
+margin-left: 33vh;
+}
+
+.navbar a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.navbar a:hover {
+background-color: #575757;
+}
+.v{
+    float: left;
+    height: 900px;
+    width: 2500px; 
+    margin: 20px;
+}
